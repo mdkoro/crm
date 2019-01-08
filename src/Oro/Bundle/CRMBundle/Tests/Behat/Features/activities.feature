@@ -21,7 +21,6 @@ Feature: Activities
       | Method        | Interval unit | Interval number |
       | Flash message | minutes       | 30              |
     And save and close form
-    Then should see "Task saved" flash message
     And go to Activities/ Tasks
     And I should see following grid:
       | Subject | Due date               | Status | Priority | Assigned To |
