@@ -1,6 +1,9 @@
 /* @theme: admin.oro; */
 
 .mobile-version {
-    @import "./contact";
-    @import "./contact-widget";
+    @import "oroui/css/scss/mobile/variables";
+
+    @import "variables";
+
+    @import "contact";
 }

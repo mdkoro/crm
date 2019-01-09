@@ -147,7 +147,7 @@ oro_behat_extension:
       selector: '.oro-grid-table'
       class: Oro\Bundle\DataGridBundle\Tests\Behat\Element\FrontendTableGrid
 
-    ConfigurationLocalizationForm:
+    Configuration Localization Form:
       selector: 'form[name="localization"]'
       class: Oro\Bundle\TestFrameworkBundle\Behat\Element\Form
       options:
@@ -263,6 +263,11 @@ oro_behat_extension:
       selector:
         type: 'xpath'
         locator: '//div[@title="Opportunities List"]/..//button[contains(@id,"dashboard-action")]'
+
+    Widget Save Button:
+      selector:
+        type: 'xpath'
+        locator: '//div[@class="widget-actions-section"]/..//button[contains(text(),"Save")]'
 
   pages:
     Opportunity Index:

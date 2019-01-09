@@ -22,7 +22,7 @@ class FeatureContext extends OroFeatureContext implements OroPageObjectAware
         self::assertTrue($attachment->isValid(), sprintf('"%s" attachment not found', $title));
 
         $attachment->find('css', 'input')->check();
-        $page->find('css', 'a.attach')->click();
+        $page->find('css', 'button.attach')->click();
     }
 
     /**
@@ -86,7 +86,7 @@ class FeatureContext extends OroFeatureContext implements OroPageObjectAware
     {
         foreach ($this->getFormContacts() as $contact) {
             if (false !== strpos($contact->getText(), $name)) {
-                $contact->find('css', 'i.fa-close')->click();
+                $contact->find('css', 'span.fa-close')->click();
 
                 return;
             }

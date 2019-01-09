@@ -121,10 +121,10 @@ oro:
             sales_funnel.saved.message: Sales process saved
             b2bcustomer.saved.message: Customer saved
         form:
-            choose_opportunity: Choose an opportunity....
-            choose_lead:        Choose a lead....
-            choose_b2bcustomer: Choose a customer....
-            choose_account:     Choose an account ....
+            choose_opportunity: Choose an opportunity...
+            choose_lead:        Choose a lead...
+            choose_b2bcustomer: Choose a customer...
+            choose_account:     Choose an account...
             choose_close_rsn:   Choose a close reason...
             tooltip:
                 account: Choose customer account the Opportunity will be related to. Account name is displayed in parentheses if it differs from the customer name. To create a new customer account, type their name into the control and choose option marked as New.
@@ -299,6 +299,7 @@ oro:
                 label:            Contact
                 description:      A contact the lead was converted into.
             owner.label:          Owner
+            address_book:   Address Book
             address:
                 label:            Address
                 description:
@@ -352,7 +353,6 @@ oro:
             primary_addr:
                 label:            Primary Address
 
-
             convert:
                  error:           Unable to convert lead to opportunity
             feature.label:        Lead
@@ -372,7 +372,9 @@ oro:
                 update: Update
                 delete: Delete
                 views:
-                    open:            Open Leads
+                    open: Open Leads
+            disqualify: Disqualify
+            convert_to_opportunity: Convert to Opportunity
 
         #
         # Entity Oro\Bundle\SalesBundle\Entity\LeadAddress
