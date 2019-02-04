@@ -14,7 +14,7 @@
             "OroCRM\\Bundle": "src/"
          }
     },
-    "repositories": 
+    "repositories": {
        "composer": {
             "type": "composer",
             "url": "http://packagist.orocrm.com"
