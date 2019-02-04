@@ -14,12 +14,17 @@
             "OroCRM\\Bundle": "src/"
          }
     },
-    "repositories": [
-       {
+    "repositories": 
+       "composer": {
             "type": "composer",
             "url": "http://packagist.orocrm.com"
-        }
-    ],
+        },
+    "oro/platform": {
+      "type": "vcs",
+      "url": "https://github.com/mdkoro/platform.git"
+    }
+
+    },
     "require": {
         "php": ">=5.4.9",
         "oro/platform": "dev-1.9.0-mdk"
